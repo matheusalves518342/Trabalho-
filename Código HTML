@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h2>Lista de Tarefas</h2>
+        
+        <div class="todo-input">
+            <input type="text" placeholder="Digite uma nova tarefa...">
+            <button type="button">Adicionar</button>
+        </div>
+
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" id="task1">
+                <label for="task1">Estudar HTML e CSS</label>
+            </li>
+
+            <li class="todo-item">
+                <input type="checkbox" id="task2">
+                <label for="task2">Finalizar projeto da semana</label>
+            </li>
+
+            <li class="todo-item">
+                <input type="checkbox" id="task3">
+                <label for="task3">Academia às 18h</label>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
